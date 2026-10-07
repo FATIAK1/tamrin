@@ -7,19 +7,20 @@ namespace tamrin
     public class Teacher
     {
         //Property:
-           //Firstname
-           //Lastname
-           //Birthdate
-           //Subject
-           //Salary
-           //Classes
-          
-        //Method:
-           //Teach
-           //Gradeexam
-           //Assignhomworks  
-           //Takeattendance
-           //Getpaid
+           public string Firstname { get; set; }
+           public string Lastname { get; set; }
+           public  int age {get; set; }
+           public string Subject { get; set; }
+           public int Salary {get; set; }
+           public int Classes {get; set; }
+           public bool gender {get; set; }
 
-    }
+    //Method:
+    //Teach
+    //Gradeexam
+    //Assignhomworks  
+    //Takeattendance
+    //Getpaid
+
+}
 }

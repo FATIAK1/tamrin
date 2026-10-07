@@ -7,17 +7,17 @@ namespace tamrin
     public class Dog
     {
         //Property:
-           //Name
-           //Breed
-           //Color
-           //Weight
-           //Gender
+           public string Name { get; set; }
+           public string  Breed { get; set; }
+           public string Color { get; set; }
+           public int  Weight { get; set; }
+           public bool Gender { get; set; }
 
         //Method:
-           //Bark
-           //Eat
-           //Run
-           //Sleep
-           //Play
+        //Bark
+        //Eat
+        //Run
+        //Sleep
+        //Play
     } 
 }

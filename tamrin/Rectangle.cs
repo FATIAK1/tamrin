@@ -7,18 +7,18 @@ namespace tamrin
     public class Rectangle
     {
         //Property:
-           //Length
-           //Width
-           //Area
-           //Color
-           //Border
-           //Perimeter
+           public int Length { get; set; }
+           public int Width { get; set; } 
+           public int Area { get; set; }
+           public string Color { get; set; }
+           public int Border { get; set; }
+           public int Preimeter { get; set; }
 
         //Method:
-           //CalculateArea
-           //Calculateperimeter
-           //Changecolor
-           //Resize
+        //CalculateArea
+        //Calculateperimeter
+        //Changecolor
+        //Resize
 
     }
 }
